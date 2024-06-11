@@ -19,7 +19,7 @@ class Resume extends Component {
         <div key={objectives.title}>
           <h3>{objectives.title}</h3>
           <p className="info">
-            {objectives.subtitle} <span>&bull;</span>
+            {objectives.subtitle}
             <em className="date">{objectives.graduated}</em>
           </p>
           <p>{objectives.description}</p>
