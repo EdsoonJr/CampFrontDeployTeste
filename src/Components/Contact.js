@@ -111,10 +111,10 @@ class Contact extends Component {
                 <h4>Contatos e Emails</h4>
                 <p className="address">
                   {street}
-                  <br /> 
+                  <br />
                   {cemail}
                   <br />
-                  {city} 
+                  {city}
                   <br />
                   {cemail2}
                   <br />
@@ -126,29 +126,27 @@ class Contact extends Component {
               </div>
 
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">Ultimas Notícias</h4>
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                      Desde o lançamento beta, recebemos feedback extremamente 
+                      positivo dos usuários iniciais. Estudantes e responsáveis 
+                      elogiaram a facilidade de uso da plataforma e a rapidez com 
+                      que suas preocupações foram tratadas.
                     </span>
                     <b>
-                      <a href="./">2 Days Ago</a>
+                      <a>5 Days Ago</a>
                     </b>
                   </li>
                   <li>
                     <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                    Estamos comprometidos em continuar aprimorando o 
+                    CampusSeguro com novas funcionalidades e melhorias 
+                    baseadas no feedback dos usuários.
                     </span>
                     <b>
-                      <a href="./">3 Days Ago</a>
+                      <a>3 Days Ago</a>
                     </b>
                   </li>
                 </ul>
