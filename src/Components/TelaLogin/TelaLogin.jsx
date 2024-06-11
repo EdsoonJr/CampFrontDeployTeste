@@ -17,7 +17,6 @@ const LoginForm = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const loginData = { email, senha: password }; // Aqui estamos usando 'senha' para compatibilidade com o backend
-    console.log('Dados do formulário de login:', loginData);
 
     try {
       const response = await axios.post('https://campback-2g5w.onrender.com/login', loginData);
