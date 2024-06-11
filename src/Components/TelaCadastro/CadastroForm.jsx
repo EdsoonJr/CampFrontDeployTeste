@@ -34,7 +34,7 @@ const CadastroForm = () => {
     };
     
     try {
-      const response = await axios.post('https://campus-deploy-api.vercel.app/users', userData);
+      const response = await axios.post('https://campback-2g5w.onrender.com/users', userData);
       navigate('/main'); // Redirecionar para a página principal após o cadastro
     } catch (error) {
       // Tratamento de erro
